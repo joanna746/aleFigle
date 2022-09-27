@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> Projekt 1</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&family=Open+Sans:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav">
+            <a href="#about" class="product-nav">o nas</a>
+            <a href="#produkty" class="product-nav">produkty</a>
+            <a href="#nowosci" class="product-nav">nowości</a>
+            <a href="#kontakt" class="product-nav">kontakt</a>
+        </div>
+        <a class="nav-shop" href="#shop">Shop</a>
+
+    </nav>
+    <header class="splash">
+        <div class="splash inner">
+            <i class="fas fa-child"></i>
+            <h1 class="page-title">Witamy w świecie a'le Figle</h1>
+            <h2 class="page-subtitle">Artykuły dla niemowląt i dzieci</h2>
+        </div>
+    </header>
+
+    <div id="pages">
+      <section id="produkty">
+        <div id="product-list" class="product list container"></div>
+      </section>
+      <section id="nowosci">
+        <div class="nowosci wrapper container"></div>
+      </section>
+    </div>
+
+    <section id="about" class="intro">
+        <div class="container">
+            <p> Tworzymy akcesoria pełne miłości i szczęścia<br>
+                Idealne do codziennych figli maluchów</p>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <h2 class=" section-title">Producent akcesoriów dla niemowląt</h2>
+            <p>Szyjemy pościele, śpiworki, ręczniki na indywidualne zamówienia</p>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="container">
+            <h2 class="section-title"> Co oferujemy?</h2>
+            <article class="skill-left">
+                <div class="skill-image">
+                    <img alt=""
+                        src="https://images.pexels.com/photos/3738088/pexels-photo-3738088.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500">
+                </div>
+                <div class="skill-description">
+                    <h3 class="skill-title">Polski producent</h3>
+                    <p> Szyjemy w swoich szwalniach z najlepszych tkanin</p>
+                </div>
+            </article>
+            <article class="skill-right">
+                <div class="skill-image">
+                    <img alt=""
+                        src="https://images.pexels.com/photos/259756/pexels-photo-259756.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                </div>
+                <div class="skill-description">
+                    <h3 class="skill-title">Materiały klasy premium </h3>
+                    <p>Bawełna, muślin i inne</p>
+                </div>
+            </article>
+            <article class="skill-left">
+                <div class="skill-image">
+                    <img alt=""
+                        src="https://images.pexels.com/photos/7148032/pexels-photo-7148032.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                </div>
+                <div class="skill-description">
+                    <h3 class="skill-title">Idealnie skrojone na Twoją miarę</h3>
+                    <p> wybór należy do Ciebie</p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <footer class="page-footer">
+        <div class="container">
+            <h4>Adres:alefigle.com</h4>
+            <p>Prawa zastrzeżone</p>
+        </div>
+    </footer>
+    <div id="product-list" class="product-list container"></div>
+  <script id="template-menu-product" type="text/x-handlebars-template">
+      <article class="product active"> <!-- product -->
+        
+          
+
+      </article> <!-- .product -->
+    </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.0/handlebars.min.js"></script>
+  <script src="js/functions.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
